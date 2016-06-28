@@ -58,7 +58,7 @@ public class MelodOrens implements JMC {
                 Scanner sc = new Scanner(System.in);
                 
         System.out.println("Quantas notas podemos usar?");
-        //int quantidadeNotas = sc.nextInt();
+        //int quantidadeNotas = sc.nextInt(); //caso o programa fique dinamico, descomentar esta linha e comentar a proxima
         int quantidadeNotas = 7;
 
         System.out.println("Quantos compassos que tem?");
@@ -82,7 +82,7 @@ public class MelodOrens implements JMC {
            for(l=0;l<=quantidadeNotas;l++){
             for(m=0;m<=quantidadeNotas;m++){
              for(n=0;n<=quantidadeNotas;n++){
-              /**for(o=0;o<=quantidadeNotas;o++){
+              /**for(o=0;o<=quantidadeNotas;o++){ //i had a problem with recursive functions :/
                for(p=0;p<=quantidadeNotas;p++){
                 for(q=0;q<=quantidadeNotas;q++){
                  for(r=0;r<=quantidadeNotas;r++){
@@ -143,7 +143,7 @@ public class MelodOrens implements JMC {
        
         //if (avaliacao == true){
         System.out.println("WOOOW!!! O programa fez "+ciclo+" tentativas!");
-        System.out.println("E CACETARALHO! "+deucerto+" DERAM DELAS CERTO!");
+        System.out.println("E DE TODAS... "+deucerto+" DERAM DELAS CERTO!");
                 System.out.println("(͡°͜ʖ͡°)");
                 System.out.println("lorensov qualified code!");
                 System.out.println("(͡°͜ʖ͡°)");
